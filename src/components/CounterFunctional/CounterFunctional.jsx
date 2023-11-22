@@ -4,11 +4,11 @@ const CounterFunctional = ({ initialValue = 0, step = 1 }) => {
   const [counter, setCounter] = useState(initialValue);
 
   const increase = () => {
-    setCounter(counter + 1);
+    setCounter(counter + step); 
   };
 
   const decrease = () => {
-    setCounter(counter - 1);
+    setCounter(counter - step); 
   };
 
   return (
