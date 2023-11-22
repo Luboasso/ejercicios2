@@ -1,6 +1,6 @@
 import './App.css'
 import CounterFunctional from "./components/CounterFunctional/CounterFunctional";
-import Greeting from './components/CounterFunctional/Greeting/Greeting';
+import Greeting from './components/Greeting/Greeting';
 
 function App() {
   return (
